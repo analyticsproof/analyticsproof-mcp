@@ -152,7 +152,7 @@ The free public scan works over REST without an account: `POST /api/v1/public/sc
 
 ## Plans
 
-Free (1 website, 1 journey), Starter €49/month, Professional €149/month (adds Android and TV apps and CI/CD), Agency from €99/month including 3 websites. The API needs Starter or higher: an API key of a project below it reaches only `whoami` and `create_checkout_link`. A user's first project starts with a 14-day Starter trial, no card. Details: https://analyticsproof.com/pricing
+Free (1 website, 1 journey), Starter €49/month, Professional €149/month (adds Android and TV apps and CI/CD), Agency from €99/month including 3 websites. An OAuth connection (Claude, ChatGPT and other MCP clients) needs no API key and works on every plan, Free included, within that plan's limits. API keys need Starter or higher: an API key of a project below it reaches only `whoami` and `create_checkout_link`. A user's first project starts with a 14-day Starter trial, no card. Details: https://analyticsproof.com/pricing
 
 ## Data
 
