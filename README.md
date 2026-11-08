@@ -75,7 +75,8 @@ Each tool is one operation of the [v1 REST API](https://analyticsproof.com/devel
 | Tool | What it does |
 | --- | --- |
 | `create_project` | Create a project. |
-| `create_target` | Add a website, Android app or HbbTV (TV) app as a saved test; its first scan starts right away. |
+| `create_target` | Add a website, Android app or HbbTV (TV) app as a saved test; its first scan starts right away. A password-protected test environment takes `access` (HTTP Basic auth and/or up to 3 secret headers), saved before the first scan. |
+| `update_target` | Set, replace or remove a test's `access`. Values are write-only and are sent only to the origin of the test's URL. |
 | `create_journey` | Create a website journey from steps; its baseline replay starts right away. |
 | `patch_journey` | Rename, pause or resume a journey. |
 | `trigger_scan` | Run a one-off scan, optionally as a dry run for a CI gate. |
